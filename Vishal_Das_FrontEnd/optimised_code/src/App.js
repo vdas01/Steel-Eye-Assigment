@@ -58,4 +58,21 @@ List.propTypes = {
   ).isRequired,
 };
 
+List.defaultProps = {
+  items: [
+    {
+      text: 'Vishal Das',
+    },
+    {
+      text: 'Lpu',
+    },
+    {
+      text: 'Reg:-12006006',
+    },
+    {
+      text: 'Frontend Developer',
+    }
+  ],
+};
+
 export default List;
